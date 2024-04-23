@@ -1,0 +1,96 @@
+body{
+  font-family: sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  height: 72px;
+  align-items: center;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+button{
+  all: unset;
+  padding: 6px 16px;
+  background: red;
+  height: 32px;
+  color: white;
+  font-weight: 500;
+}
+
+.heroContent{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 36px;
+  justify-content: center;
+  width: 700px;
+
+}
+
+.hero{
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: calc(100vh - 72px);
+  gap: 50px;
+}
+
+.hero h1{
+  font-weight: 800;
+  font-size: 108px;
+  line-height: 102px;
+}
+
+.hero p{
+  font-weight: 600;
+  color: black;
+  width: 80%;
+}
+
+.heroButton{
+  display: flex;
+  gap: 40px;
+}
+
+.secondaryBtn{
+  background: transparent;
+  border: 1px solid black;
+  color: black;
+}
+
+.shopping p{
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.shoppingImage{
+  display: flex;
+  gap: 16px;
+}
+
+.heroImage{
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+
+.heroImahe img{
+  object-fit: contain;
+  object-position: center;
+  width: 500px;
+}
