@@ -1,0 +1,23 @@
+body{
+    font-family: sans-serif;
+  }
+  
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+    height: 72px;
+  }
+  
+  .container{
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  .nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    font-weight: 500;
+  }
