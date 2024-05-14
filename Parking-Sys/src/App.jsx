@@ -6,6 +6,7 @@ import Footer from './Components/Footer'
 import Register from './Components/Register'
 import { Route, Routes } from 'react-router-dom'
 import User from './Components/User'
+import Map from './Components/Map'
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <Route path='/' element={<Main/>}/>
       <Route path='/register' element={<Register/>}/>
       <Route path='/login' element={<User/>}/>
+      <Route path='/locate' element={<Map/>}/>
     </Routes>
     <Footer/>
     </>
